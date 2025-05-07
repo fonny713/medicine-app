@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "814440152155",
+    "project_id": "medicine-app-fec8a",
+    "storage_bucket": "medicine-app-fec8a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814440152155:android:00fa04c03f9ea3c4b1d37e",
+        "android_client_info": {
+          "package_name": "com.medscan.medscan_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg5sYaOwpjVrSbx1xjxzRUesRIbRn9a-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
