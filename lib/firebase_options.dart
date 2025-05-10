@@ -65,4 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'medicine-app-fec8a.firebasestorage.app',
     iosBundleId: 'com.medscan.medscanAi',
   );
+
 }

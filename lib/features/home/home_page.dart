@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import '../scan/medicine_scanner_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -69,7 +70,12 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
-          // TODO: Implement barcode scanning
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const MedicineScannerPage(),
+            ),
+          );
         },
         icon: const Icon(Icons.qr_code_scanner),
         label: const Text('Scan Medicine'),
